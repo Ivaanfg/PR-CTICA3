@@ -1,5 +1,5 @@
-function RevertirNumeros() {
-  var str = document.getElementById('alertado').value;
+function exercici2() {
+  var str = document.getElementById('exercici2').value;
   var lista = "";
   for (var i = str.length - 1; i >=0;i--) {
     lista += str[i];
