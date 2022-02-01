@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>	PRÀCTICA DE JS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Amb el link enllaçam else arxius css per modificar l'aspecte del l'html. -->
+<link rel="stylesheet" href="..\css\index.css">
+<link rel="stylesheet" href="..\css\exercici1.css">
+<link rel="stylesheet" href="..\css\exercici2.css">
+<link rel="stylesheet" href="..\css\exercici3.css">
+<link rel="stylesheet" href="..\css\exercici4.css">
+<link rel="stylesheet" href="..\css\exercici5.css">
+<script type='text/javascript' src="index.js"></script>
+<script type='text/javascript' src="exercici1.js"></script>
+<script type='text/javascript' src="exercici2.js"></script>
+<script type='text/javascript' src="exercici3.js"></script>
+<script type='text/javascript' src="exercici4.js"></script>
+<script type='text/javascript' src="exercici5.js"></script>
+
+
+</head>
+<body>
+
+
+<!-- Aixo es la capçelera -->
+<div class="header">
+  <h1>Ivan Ferrer & Joan Torres 1V ASIX</h1>
+  <h1>Llenguatge De Marques</h1>
+  <h1>Pràctica JavaScript</h1>
+</div>
+
+<!-- Aixo es la barra que ens serveix per anar canviant de pagina. -->
+<div class="navbar">
+  <a onclick='canvinav(0)' >Index</a>
+  <a onclick='canvinav(1)'>Exercici1</a>
+  <a onclick='canvinav(2)'>Exercici2</a>
+  <a onclick='canvinav(3)'>Exercici3</a>
+  <a onclick='canvinav(4)'>Exercici4</a>
+  <a onclick='canvinav(5)'>Exercici5</a>
+</div>
+<!-- INDEX-->
+
+<div id="index" class= "row">
+	<div class="side">
+		<h2>JS</h2>
+    <img src="..\imatge\imatge1.png" width="125" height="125">
+		<p>El JavaScript es un llenguatge de programació que serveix per afegir interacció a la teva pàgina web.</p>
+    <p>Per exemple crear un botó</p>
+
+	</div>
+
+	<div class= "main">
+		<h2>Sobre aquesta pràctica</h2>
+    <p>Exemples de JavaScript:</p>
+    <img src="..\imatge\imatge2.png" width="150" height="150"><img src="..\imatge\imatge3.png" width="200" height="200">
+		<h4>Resum de la pràctica:</h4>
+		<p>Resum....</p>
+	</div>
+</div>
+<!-- Exercici1 -->
+<div id="exercici1" class= "row">
+	<div class="side">
+		<h2>Exercici1</h2>
+    <p> El primer exercici consta
+      amb crar un alert box,
+      que quan introduim alguna cosa
+      la pàgina ens envia una alerta
+      amb lo que hem introduit
+      però a la inversa.</p>
+			</div>
+
+	<div class= "main">
+		<h2>ALERT BOX</h2>
+    <form>
+      <input id="alertado" type="text" name="Escribir numeros:">
+      <input type="button" onclick="RevertirNumeros()" value="alerta">
+    </form>
+	</div>
+</div>
+
+<!-- Exercici2 -->
+
+<div id="exercici2" class= "row">
+	<div class="side">
+		<h2>Exercici2</h2>
+		<p>Aquest exercici consta de crear un programa usant Javascript que,
+      amb l’ajuda d’un formulari HTML,
+      reculli informació de 4 caixes de text</p>
+	</div>
+
+	<div class= "main">
+  		<h2>ALERT BOXES</h2>
+      <form>
+        <p>1</p>
+        <input id="alertado" type="text" name="Escribir numeros:">
+        <input type="button" onclick="RevertirNumeros()" value="alerta">
+        <p></p>
+        <p>2</p>
+        <input id="alertado" type="text" name="Escribir numeros:">
+        <input type="button" onclick="RevertirNumeros()" value="alerta">
+        <p>3</p>
+        <p></p>
+        <input id="alertado" type="text" name="Escribir numeros:">
+        <input type="button" onclick="RevertirNumeros()" value="alerta">
+        <p>4</p>
+        <p></p>
+        <input id="alertado" type="text" name="Escribir numeros:">
+        <input type="button" onclick="RevertirNumeros()" value="alerta">
+      </form>
+	</div>
+</div>
+
+<!-- Exercici3 -->
+
+<div id="exercici3" class= "row">
+	<div class="side">
+		<h2>Exercici3</h2>
+		<h5>photo sda</h5>
+		<div class="fakeimg" style="height:200px;">img</div>
+		<p>dsadasdafnafnadsfijsdijgijfsgijb</p>
+		<h3>sadasjfjdj</h3>
+	</div>
+
+	<div class= "main">
+		<h2>Tittle</h2>
+		<h5>photo sda</h5>
+		<div class="fakeimg" style="height:200px;">img</div>
+		<p>dsadasdafnafnadsfijsdijgijfsgijb</p>
+		<p>sadasjfjdj</p>
+	</div>
+</div>
+<!-- Exercici4 -->
+
+<div id="exercici4" class= "row">
+	<div class="side">
+		<h2>Exercici4</h2>
+		<h5>photo sda</h5>
+		<div class="fakeimg" style="height:200px;">img</div>
+		<p>dsadasdafnafnadsfijsdijgijfsgijb</p>
+		<h3>sadasjfjdj</h3>
+	</div>
+
+	<div class= "main">
+		<h2>Tittle</h2>
+		<h5>photo sda</h5>
+		<div class="fakeimg" style="height:200px;">img</div>
+		<p>dsadasdafnafnadsfijsdijgijfsgijb</p>
+		<p>sadasjfjdj</p>
+	</div>
+</div>
+<!-- Exercici5 -->
+<div id="exercici5" class= "row">
+	<div class="side">
+		<h2>Exercici5</h2>
+		<p>El darrer exercici consta amb crear una calculadora simple amb números naturals</p>
+	</div>
+
+	<div class= "main">
+		<h2>CALCULADORA:</h2>
+    <div class="calculadora">
+      <input id='inputCal' type="text" name="inputCal">
+        <div onclick="calcula(0)">0</div>
+        <div onclick="calcula(1)">1</div>
+        <div onclick="calcula(2)">2</div>
+        <div onclick="calcula(3)">3</div>
+        <div onclick="calcula(4)">4</div>
+        <div onclick="calcula(5)">5</div>
+        <div onclick="calcula(6)">6</div>
+        <div onclick="calcula(7)">7</div>
+        <div onclick="calcula(8)">8</div>
+        <div onclick="calcula(9)">9</div>
+        <div onclick="calcula('+')">+</div>
+		<div onclick="calcula('-')">-</div>
+		<div onclick="calcula('/')">/</div>
+        <div onclick="calcula('*')">*</div>
+		<div id='btnigual' onclick="calcula('=')">=</div>
+		<div id='clear' onclick="calcula('C')">C</div>
+
+      </div>
+	</div>
+</div>
+
+
+
+<!-- Aixo es el peu de pagina -->
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>

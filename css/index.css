@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+table,th,td {
+  border:1px solid black;
+}
+/* Style the body */
+body {
+  font-family: Verdana;
+  margin: 0;
+}
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #6F6967;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #6F6967;
+  color: white;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 20%;
+  background-color: #6F6967;
+  padding: 20px;
+  float : left
+  color: white;
+}
+
+/* Main column */
+.main  {
+  flex: 80%;
+  background-color: #B8ABA6;
+  padding: 20px;
+  float : left;
+}
+.main img {
+  width: 550px;
+  height: 500px;
+}
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  width: 100%;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
+
+
+/* nuevo del index */
+
+.row {
+	display:none;
+
+}
+#index {
+	display:flex;
+
+}
+/*
+#exercici1{
+	display:flex;
+}
+
+#exercici2{
+	display:flex;
+}
+
+#exercici3{
+	display:flex;
+}
+
+#exercici4{
+	display:flex;
+}
+
+#exercici5{
+	display:flex;
+}
+*/
